@@ -1,7 +1,8 @@
 # Playfair Cipher Encryption Tool
 
 ## Overview
-![image](https://github.com/niloy104/Playfair-Cipher-Encryption-Tool/assets/90547002/f2738d6c-1300-4770-8f69-c6e1fb6b5dcf)
+![image](https://github.com/niloy104/Playfair-Cipher-Encryption-Tools/assets/90547002/98d2fa6f-6334-436f-9cf9-9598d064364e)
+
 
 This project implements a Playfair Cipher encryption tool using Html,Css,JavaScript. The Playfair Cipher is a cryptographic technique that encrypts plaintext into ciphertext by using a 5x5 key table of letters.
 
