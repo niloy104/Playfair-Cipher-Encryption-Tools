@@ -1,0 +1,6 @@
+yt link about playfair cipher: https://www.youtube.com/watch?v=IyYRfPaxaFk&t=14s ,
+
+To do list-
+* Convert c++ code into js (done)
+* Create basic frontend (done)
+* add js to frontend (done)

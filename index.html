@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Playfair Cipher</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Playfair Cipher</h1>
+    </header>
+
+    <main class="container">
+        <div class="form-container">
+            <div class="form-group">
+                <label for="key">Key word:</label>  
+                <input id="key" type="text" placeholder="Enter key" required>
+            </div>
+            <div class="form-group">
+                <label for="String">Massage:</label>
+                <input id="String" type="text" placeholder="Enter a message">
+            </div>
+            <div class="form-group">
+                <button class="btn btn-primary" onclick="processKey(), cipher()">Encrypt</button>
+                <button class="btn btn-success" onclick="deCodeCipher()">Decrypt</button>
+            </div>
+        </div>
+        <div class="result-container">
+            <div class="result">
+                <h3>Cipher Text:</h3>
+                <p id="printValue" class="result-text"></p>
+            </div>
+            <div class="result">
+                <h3>PlainText:</h3>
+                <p id="printDeCode" class="result-text"></p>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>Developed by "Md.Manzurul Alam aka niloy104"</p>
+    </footer>
+
+    <script src="playfair.js"></script>
+</body>
+</html>
